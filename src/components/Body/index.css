@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.Body {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+.box {
+  background-color: #e2e8f0;
+  margin: 3px;
+  padding: 5px;
+  width: 200px;
+}
+
+.content {
+  background-color: #f1f5f9;
+  flex: wrap;
+}
+h1 {
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.left-navbar-list {
+  list-style-type: none;
+  padding-left: 0px;
+  font-size: 20px;
+}
+
+.right-navbar-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ad {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin: 5px;
+  display: flex;
+  height: 70px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    min-width: 200px;
+  }
+}

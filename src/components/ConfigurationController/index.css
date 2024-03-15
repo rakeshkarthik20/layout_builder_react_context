@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.layout-box {
+  background-color: #475569;
+  padding: 15px;
+}
+
+.heading {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.configuration-item {
+  display: flex;
+  justify-content: row;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+}
